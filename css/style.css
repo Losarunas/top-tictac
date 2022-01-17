@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+.game-board{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.game{
+    display: none;
+}
+.game-board-box{
+    flex-basis: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    height: 200px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: aliceblue;
+    transition: all .2s ease-in;
+}
+
+.game-board-box:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#start-game-form{
+    text-align: center;
+}
+.start-game-btn{
+    text-align: center;
+    padding: 5px 10px;
+}

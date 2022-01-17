@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac</title>
+  <meta name="description" content="">
+  <meta name="SL" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Tic tac</h1>
+    <form id="start-game-form">
+      <div class="players">
+        <div class="player-1">
+          <label for="fname">X player:</label><br>
+          <input type="text" id="player1" name="player1" value="Victor"><br>
+        </div>
+        <div class="player-2">
+          <label for="lname">O player:</label><br>
+          <input type="text" id="player2" name="player2" value="Terminator"><br>
+        </div>
+      </div>
+      <input class="start-game-btn" type="submit" value="Start game">
+    </form>
+    <div class="game">
+      <input id="restart-game" type="submit" value="Restart game">
+      <div class="msg"></div>
+      <div class="game-board">
+
+        <div id="box-1" class="game-board-box"></div>
+        <div id="box-2" class="game-board-box"></div>
+        <div id="box-3" class="game-board-box"></div>
+        <div id="box-4" class="game-board-box"></div>
+        <div id="box-5" class="game-board-box"></div>
+        <div id="box-6" class="game-board-box"></div>
+        <div id="box-7" class="game-board-box"></div>
+        <div id="box-8" class="game-board-box"></div>
+        <div id="box-9" class="game-board-box"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
